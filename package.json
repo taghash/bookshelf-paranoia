@@ -9,7 +9,8 @@
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "knex": "knex --knexfile test/db/knexfile.js",
     "migrate": "npm run knex -- migrate:latest",
-    "seed": "npm run knex -- seed:run"
+    "seed": "npm run knex -- seed:run",
+    "install": "npm install --production"
   },
   "repository": {
     "type": "git",
